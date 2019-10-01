@@ -1,0 +1,114 @@
+body {
+    background-color: #0D1440;
+  }
+  
+  #container {
+    width: 960px;
+    margin: 0px auto;
+  }
+  
+  header {
+    display: flex; 
+    justify-content: center;
+  }
+  
+  
+  main {
+    color: rgb(78, 190, 255);
+  }
+  
+  #bio {
+    display: flex;
+  }
+  
+  #bio img{
+    max-width: 200px;
+  }
+  
+  #bio-container {
+    margin-left: 20px;
+    flex: 1;
+  }
+  
+  #namedate {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 3px;
+    font-size: 1.75em;
+    color: white;
+  }
+  
+  #namedate p{
+    margin: 0px;
+  }
+  
+  #chose h3 {
+    font-size: 1.5em;
+  }
+
+  #chose {
+    background-color: #545353;
+    padding-left: 10px;
+    padding-bottom: 5px; 
+  }
+
+  #chose ul {
+    padding: 0px;
+    color: white;
+    list-style-position: inside;
+  }
+  
+  #tech {
+    margin-top: 20px;
+    display:flex;
+    justify-content: space-between;
+  }
+  
+  figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px;
+    max-width: 180px;
+  }
+  
+  figure img {
+    max-height: 180px;
+  }
+  
+  figcaption {
+    color: white;
+    text-align: center;
+    background: rgba(3,3,3,.65);
+    position: relative;
+    bottom: 20px;
+    padding: 5px;
+  }
+
+  #plans h3 {
+    color: white;
+    font-size: 2em;
+  }
+
+  h4 {
+    font-size: 1.5em;
+    margin: 0px;
+  }
+
+  #plans p {
+      color: white;
+      font-size: 18px;
+  }
+
+  #plans div{
+    background-color: #545353;
+    padding: 12px;
+  }
+  
+  footer {
+    color: #545353;
+    text-align: center;
+    font-size: 1.2em;
+  }
+  
+  
